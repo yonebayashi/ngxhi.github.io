@@ -1,0 +1,46 @@
+.about {
+	margin: 0 auto;
+  text-align: left;
+  font-family: Gopher Text;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.title {
+  font-family: Gopher;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 86px;
+  text-transform: uppercase;
+  padding: 3rem 0;
+}
+
+.row-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 24px;
+}
+
+.row-2 .col-1 p:first-child{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.row-3 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.row-3 .col-2 {
+  border-left: 2px solid black;
+}
+
+.row-3 .col-2 p {
+  margin-left: 20px;
+}
+
+.col-title {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}

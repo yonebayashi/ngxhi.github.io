@@ -1,0 +1,52 @@
+$light-gray: #eceef1;
+$gray: darken(#eceef1, 30%);
+$slate: darken(#eceef1, 70%);
+$turquoise: #1abc9c;
+
+.card {
+  margin: 15px; 
+  width: calc((100% / 3) - 30px);
+  transition: all 0.2s ease-in-out;
+
+  //media queries for stacking cards
+  @media screen and (max-width: 991px) {
+    width: calc((100% / 2) - 30px);
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 100%;
+  }
+
+  &:hover {
+    .card__inner {
+      transform: scale(1.05);
+    }
+  }
+
+  &__inner {
+    padding: 30px;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+    border: 1px black solid;
+    transition: all 0.2s ease-in-out;
+    
+    &:after {
+      transition: all 0.3s ease-in-out;
+    }
+     .card-title {
+       text-align: center;
+       font-size: 24px;
+       font-weight: bold;
+     }
+
+    img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-description {
+      font-size: 14px;
+    }
+  }
+}
