@@ -16,14 +16,14 @@ export default class Portfolio extends Component {
           title="Twitter Depression Detection"
           imgURL={twitterDepression}
           description="Using Machine Learning to analyze 10,000 tweets for signs of depression"
-          projectUrl=""
+          projectUrl="https://github.com/yonebayashi/nlp-twitter-depression-detection"
         />
 
         <Card
           title="Angular Notifications"
           imgURL={angularNoti}
           description="A real-time notifications menu in AngularJS + Firebase"
-          projectUrl=""
+          projectUrl="https://logosnews.tech/auth/login"
         />
 
         <Card
