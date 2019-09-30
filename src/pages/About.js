@@ -19,7 +19,7 @@ export default class About extends Component {
           <div className="col-1">
             <p>A little about me:</p>
             <p>
-              I am enjoying my final year as a Computer Science undergraduate student at Reed College in
+              Hi there! I'm Hien. I am enjoying my final year as a Computer Science undergraduate student at Reed College in
               beautiful Portland, Oregon. I am passionate about web development. It started from my obsession with typography, and my brief time taking caligraphy classes at Reed.
               (strangely enough, this is starting to sound like Steve Jobs when he was a student at Reed...). The more I thought about typefaces and their intricacies, the more I wanted
               to create beautiful user interfaces, so I decided to give web development a try. After completing an online program in React from Udacity, I went on to
